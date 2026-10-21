@@ -5,7 +5,7 @@
     "id": "oJEeOXECH9V31Oci9WHK",
     "name": "Peter"
   },
-  "generatedAt": "2026-10-21T17:56:08.663Z",
+  "generatedAt": "2026-10-21T19:04:09.145Z",
   "clips": {
     "1": "audio/6977ca32ae818f3de436a18f.mp3",
     "2": "audio/89151012db1ea7a2ab342e96.mp3",
@@ -303,6 +303,12 @@
     "september": "audio/5264c121b0aa3fafd6cd936b.mp3",
     "oktober": "audio/4084408c3c430fe4eb46a491.mp3",
     "november": "audio/42831ac6e8117c7919b90077.mp3",
-    "december": "audio/5cfb71da0187df478ad27e04.mp3"
+    "december": "audio/5cfb71da0187df478ad27e04.mp3",
+    "helg": "audio/0b24bada184c5a7700e9585d.mp3",
+    "semester": "audio/fbe2a98832778d88fda96bea.mp3",
+    "titta på schemat": "audio/ddeb0c62212e01b09fc7911c.mp3",
+    "chef boende": "audio/f733133f27ead746a389cb1c.mp3",
+    "chef dv": "audio/a93f04535507dbe87acc8fba.mp3",
+    "god man": "audio/c3131264c5ca9ae617bb576a.mp3"
   }
 }

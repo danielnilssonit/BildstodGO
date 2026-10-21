@@ -686,46 +686,69 @@ export const SYMBOLS = freezeSeed([
     "label": "Pappa",
     "sheet": "places-extra",
     "index": 15
+  },
+  {
+    "id": "helg",
+    "label": "Helg",
+    "sheet": "helg",
+    "index": 0,
+    "single": true
+  },
+  {
+    "id": "semester",
+    "label": "Semester",
+    "sheet": "semester",
+    "index": 0,
+    "single": true
+  },
+  {
+    "id": "chef-boende",
+    "label": "Chef boende",
+    "sheet": "chef-boende",
+    "index": 0,
+    "single": true
+  },
+  {
+    "id": "chef-dv",
+    "label": "Chef DV",
+    "sheet": "chef-dv",
+    "index": 0,
+    "single": true
+  },
+  {
+    "id": "god-man",
+    "label": "God man",
+    "sheet": "god-man",
+    "index": 0,
+    "single": true
   }
 ]);
 
 export const DEFAULT_BOARDS = freezeSeed([
   {
-    "id": "ja-nej",
-    "title": "ja nej",
-    "symbol": "yes",
-    "columns": 2,
-    "rows": 1,
-    "messageBar": false,
+    "id": "kommunikation-a",
+    "title": "Kommunikation",
+    "symbol": "self",
+    "columns": 4,
+    "rows": 5,
+    "messageBar": true,
     "showOnHome": true,
-    "color": "#dfead4",
+    "color": "#d6e6ee",
     "cells": [
       {
         "id": "yn-yes",
-        "label": "ja",
+        "label": "Ja",
         "symbol": "yes",
         "speech": "Ja",
         "color": "#b7da95"
       },
       {
         "id": "yn-no",
-        "label": "nej",
+        "label": "Nej",
         "symbol": "stop",
         "speech": "Nej",
         "color": "#ed9c98"
-      }
-    ]
-  },
-  {
-    "id": "kommunikation-a",
-    "title": "kommunikation A",
-    "symbol": "self",
-    "columns": 4,
-    "rows": 4,
-    "messageBar": true,
-    "showOnHome": true,
-    "color": "#d6e6ee",
-    "cells": [
+      },
       {
         "id": "a-want",
         "label": "Jag vill",
@@ -737,20 +760,6 @@ export const DEFAULT_BOARDS = freezeSeed([
         "label": "Jag vill inte",
         "symbol": "stop",
         "color": "#fff1ba"
-      },
-      {
-        "id": "a-people",
-        "label": "personer",
-        "symbol": "family",
-        "target": "personer",
-        "color": "#f8ddbd"
-      },
-      {
-        "id": "a-places",
-        "label": "platser",
-        "symbol": "home",
-        "target": "platser",
-        "color": "#d9eac8"
       },
       {
         "id": "a-like",
@@ -765,20 +774,6 @@ export const DEFAULT_BOARDS = freezeSeed([
         "color": "#fff1ba"
       },
       {
-        "id": "a-play",
-        "label": "leka",
-        "symbol": "play",
-        "target": "leka",
-        "color": "#d9eac8"
-      },
-      {
-        "id": "a-school",
-        "label": "skola",
-        "symbol": "school",
-        "target": "skola",
-        "color": "#d9eac8"
-      },
-      {
         "id": "a-have",
         "label": "Jag har",
         "symbol": "have",
@@ -791,58 +786,11 @@ export const DEFAULT_BOARDS = freezeSeed([
         "color": "#fff1ba"
       },
       {
-        "id": "a-feelings",
-        "label": "känslor",
-        "symbol": "happy",
-        "target": "kanslor",
-        "color": "#e8d7ed"
-      },
-      {
-        "id": "a-animals",
-        "label": "djur",
-        "symbol": "dog",
-        "target": "djur-och-ljud",
-        "color": "#d9eac8"
-      },
-      {
         "id": "a-am",
         "label": "Jag är",
         "symbol": "self",
         "color": "#fff1ba"
       },
-      {
-        "id": "a-sentences",
-        "label": "Mina meningar",
-        "symbol": "mail",
-        "target": "mina-meningar",
-        "color": "#d5e9f3"
-      },
-      {
-        "id": "a-food",
-        "label": "mat och dryck",
-        "symbol": "meal",
-        "target": "mat-och-dryck",
-        "color": "#d9eac8"
-      },
-      {
-        "id": "a-transport",
-        "label": "fordon",
-        "symbol": "car",
-        "target": "fordon",
-        "color": "#d9eac8"
-      }
-    ]
-  },
-  {
-    "id": "kommunikation-b",
-    "title": "kommunikation B",
-    "symbol": "family",
-    "columns": 3,
-    "rows": 3,
-    "messageBar": true,
-    "showOnHome": true,
-    "color": "#ead9e9",
-    "cells": [
       {
         "id": "b-hi",
         "label": "Hej!",
@@ -889,94 +837,18 @@ export const DEFAULT_BOARDS = freezeSeed([
         "id": "b-again",
         "label": "En gång till",
         "symbol": "yes"
-      }
-    ]
-  },
-  {
-    "id": "min-saga",
-    "title": "min saga",
-    "symbol": "book",
-    "columns": 3,
-    "rows": 2,
-    "messageBar": true,
-    "showOnHome": true,
-    "color": "#f3e5bf",
-    "cells": [
-      {
-        "id": "story-start",
-        "label": "Det var en gång",
-        "symbol": "book",
-        "speech": "Det var en gång"
       },
       {
-        "id": "story-child",
-        "label": "ett barn",
-        "symbol": "child"
+        "id": "communication-helg",
+        "label": "Helg",
+        "symbol": "helg",
+        "speech": "Helg"
       },
       {
-        "id": "story-walk",
-        "label": "som gick till skogen",
-        "symbol": "walk"
-      },
-      {
-        "id": "story-dog",
-        "label": "och mötte en hund.",
-        "symbol": "dog"
-      },
-      {
-        "id": "story-play",
-        "label": "De lekte tillsammans",
-        "symbol": "ball"
-      },
-      {
-        "id": "story-end",
-        "label": "och blev bästa vänner.",
-        "symbol": "heart"
-      }
-    ]
-  },
-  {
-    "id": "idag",
-    "title": "idag",
-    "symbol": "calendar",
-    "columns": 3,
-    "rows": 2,
-    "messageBar": true,
-    "showOnHome": true,
-    "color": "#dce9f1",
-    "cells": [
-      {
-        "id": "today-date",
-        "label": "Idag",
-        "symbol": "calendar",
-        "speech": "Idag"
-      },
-      {
-        "id": "today-sun",
-        "label": "Det är soligt",
-        "symbol": "sun"
-      },
-      {
-        "id": "today-rain",
-        "label": "Det regnar",
-        "symbol": "rain"
-      },
-      {
-        "id": "today-snow",
-        "label": "Det snöar",
-        "symbol": "snow"
-      },
-      {
-        "id": "today-feel",
-        "label": "Hur mår jag?",
-        "symbol": "happy",
-        "target": "kanslor"
-      },
-      {
-        "id": "today-plan",
-        "label": "Dagens plan",
-        "symbol": "schedule",
-        "target": "schema-dv"
+        "id": "communication-semester",
+        "label": "Semester",
+        "symbol": "semester",
+        "speech": "Semester"
       }
     ]
   },
@@ -1121,104 +993,6 @@ export const DEFAULT_BOARDS = freezeSeed([
     ]
   },
   {
-    "id": "djur-och-ljud",
-    "title": "djur och ljud",
-    "symbol": "dog",
-    "columns": 4,
-    "rows": 2,
-    "messageBar": true,
-    "showOnHome": true,
-    "color": "#e6eacb",
-    "cells": [
-      {
-        "id": "animal-dog",
-        "label": "hund",
-        "symbol": "dog"
-      },
-      {
-        "id": "animal-cat",
-        "label": "katt",
-        "symbol": "cat"
-      },
-      {
-        "id": "animal-cow",
-        "label": "ko",
-        "symbol": "cow"
-      },
-      {
-        "id": "animal-bird",
-        "label": "fågel",
-        "symbol": "bird"
-      },
-      {
-        "id": "animal-woof",
-        "label": "Voff voff!",
-        "symbol": "dog",
-        "speech": "Voff voff!"
-      },
-      {
-        "id": "animal-meow",
-        "label": "Mjau!",
-        "symbol": "cat",
-        "speech": "Mjau!"
-      },
-      {
-        "id": "animal-moo",
-        "label": "Mu!",
-        "symbol": "cow",
-        "speech": "Muu!"
-      },
-      {
-        "id": "animal-tweet",
-        "label": "Pip pip!",
-        "symbol": "bird",
-        "speech": "Pip pip!"
-      }
-    ]
-  },
-  {
-    "id": "skriva-mail",
-    "title": "skriva mail",
-    "symbol": "mail",
-    "columns": 3,
-    "rows": 2,
-    "messageBar": true,
-    "showOnHome": true,
-    "color": "#e6dcf0",
-    "cells": [
-      {
-        "id": "mail-hi",
-        "label": "Hej!",
-        "symbol": "wave"
-      },
-      {
-        "id": "mail-how",
-        "label": "Hur mår du?",
-        "symbol": "happy"
-      },
-      {
-        "id": "mail-fine",
-        "label": "Jag mår bra.",
-        "symbol": "self"
-      },
-      {
-        "id": "mail-today",
-        "label": "Idag har jag arbetat.",
-        "symbol": "work"
-      },
-      {
-        "id": "mail-meet",
-        "label": "Vill du ses och fika?",
-        "symbol": "coffee"
-      },
-      {
-        "id": "mail-bye",
-        "label": "Vi hörs snart!",
-        "symbol": "heart"
-      }
-    ]
-  },
-  {
     "id": "fika",
     "title": "fika",
     "symbol": "coffee",
@@ -1262,96 +1036,6 @@ export const DEFAULT_BOARDS = freezeSeed([
         "id": "fika-more",
         "label": "Lite till, tack",
         "symbol": "have"
-      }
-    ]
-  },
-  {
-    "id": "schema-dv",
-    "title": "schema DV",
-    "symbol": "schedule",
-    "columns": 3,
-    "rows": 2,
-    "messageBar": true,
-    "showOnHome": true,
-    "color": "#dce7ed",
-    "cells": [
-      {
-        "id": "schedule-morning",
-        "label": "08.00 · morgon",
-        "symbol": "sun",
-        "target": "morgon"
-      },
-      {
-        "id": "schedule-work",
-        "label": "09.00 · arbeta",
-        "symbol": "work",
-        "target": "arbeta-dv"
-      },
-      {
-        "id": "schedule-fika",
-        "label": "10.00 · fika",
-        "symbol": "coffee",
-        "target": "fika"
-      },
-      {
-        "id": "schedule-lunch",
-        "label": "12.00 · lunch",
-        "symbol": "meal",
-        "target": "mat-och-dryck"
-      },
-      {
-        "id": "schedule-walk",
-        "label": "13.00 · promenad",
-        "symbol": "walk",
-        "speech": "Klockan ett tar jag en promenad"
-      },
-      {
-        "id": "schedule-home",
-        "label": "15.00 · åka hem",
-        "symbol": "car",
-        "speech": "Klockan tre åker jag hem"
-      }
-    ]
-  },
-  {
-    "id": "personer",
-    "title": "personer",
-    "symbol": "family",
-    "columns": 3,
-    "rows": 2,
-    "messageBar": true,
-    "showOnHome": false,
-    "color": "#f8ddbd",
-    "cells": [
-      {
-        "id": "people-me",
-        "label": "jag",
-        "symbol": "self"
-      },
-      {
-        "id": "people-you",
-        "label": "du",
-        "symbol": "wave"
-      },
-      {
-        "id": "people-family",
-        "label": "min familj",
-        "symbol": "family"
-      },
-      {
-        "id": "people-woman",
-        "label": "en kvinna",
-        "symbol": "woman"
-      },
-      {
-        "id": "people-man",
-        "label": "en man",
-        "symbol": "man"
-      },
-      {
-        "id": "people-child",
-        "label": "ett barn",
-        "symbol": "child"
       }
     ]
   },
@@ -1704,8 +1388,7 @@ export const DEFAULT_BOARDS = freezeSeed([
       {
         "id": "morning-plan",
         "label": "Titta på schemat",
-        "symbol": "schedule",
-        "target": "schema-dv"
+        "symbol": "schedule"
       },
       {
         "id": "morning-leave",
@@ -1964,10 +1647,10 @@ export const DEFAULT_BOARDS = freezeSeed([
   },
   {
     "id": "ord-personer",
-    "title": "Personer och stöd",
+    "title": "Personer",
     "symbol": "visual-support",
     "columns": 4,
-    "rows": 3,
+    "rows": 5,
     "messageBar": true,
     "showOnHome": true,
     "color": "#f8ddbd",
@@ -2034,6 +1717,54 @@ export const DEFAULT_BOARDS = freezeSeed([
         "symbol": "tablet",
         "speech": "Ipad",
         "color": "#f8ddbd"
+      },
+      {
+        "id": "people-me",
+        "label": "jag",
+        "symbol": "self"
+      },
+      {
+        "id": "people-you",
+        "label": "du",
+        "symbol": "wave"
+      },
+      {
+        "id": "people-family",
+        "label": "min familj",
+        "symbol": "family"
+      },
+      {
+        "id": "people-woman",
+        "label": "en kvinna",
+        "symbol": "woman"
+      },
+      {
+        "id": "people-man",
+        "label": "en man",
+        "symbol": "man"
+      },
+      {
+        "id": "people-child",
+        "label": "ett barn",
+        "symbol": "child"
+      },
+      {
+        "id": "people-chef-boende",
+        "label": "Chef boende",
+        "symbol": "chef-boende",
+        "speech": "Chef boende"
+      },
+      {
+        "id": "people-chef-dv",
+        "label": "Chef DV",
+        "symbol": "chef-dv",
+        "speech": "Chef DV"
+      },
+      {
+        "id": "people-god-man",
+        "label": "God man",
+        "symbol": "god-man",
+        "speech": "God man"
       }
     ]
   },

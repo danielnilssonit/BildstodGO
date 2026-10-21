@@ -2,13 +2,17 @@
 
 Svensk webapp för kommunikation med bilder och tal.
 
-- 79 efterfrågade ord och 113 originalbilder.
-- 19 upplägg på hyllan och 29 sidor totalt.
+- 84 efterfrågade ord och 118 originalbilder.
+- 12 upplägg på hyllan och 21 sidor totalt.
+- Kommunikation samlar Ja, Nej, korten från A och B samt Helg och Semester utan underkategorier.
+- Personer är en egen kategori med Chef boende, Chef DV och God man.
 - Peter från ElevenLabs V4 läser upp medföljande ord, fraser och datum.
 - Ett vikt hörn visar att ett kort öppnar fler bilder.
 - Egna upplägg, bilder och meddelanden sparas i webbläsaren.
 
-Öppna appen: https://danielnilssonit.github.io/BildstodGO/
+Öppna appen: https://bildstod-go-danie.dunne87.chatgpt.site/
+
+Alternativ adress: https://danielnilssonit.github.io/BildstodGO/
 
 Egna nya texter använder enhetens reservröst om ett Peter-klipp saknas. API-nyckeln finns inte i appen eller repot.
 
