@@ -12,7 +12,7 @@ Svensk webapp för kommunikation med bilder och tal.
 
 Öppna appen: https://bildstod-go-danie.dunne87.chatgpt.site/
 
-Alternativ adress: https://danielnilssonit.github.io/BildstodGO/
+Alternativ adress: https://danielnilssonit.github.io/bildstod/
 
 Egna nya texter använder enhetens reservröst om ett Peter-klipp saknas. API-nyckeln finns inte i appen eller repot.
 
