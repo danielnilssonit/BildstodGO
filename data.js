@@ -123,6 +123,13 @@ export const SYMBOLS = freezeSeed([
     "index": 2
   },
   {
+    "id": "want",
+    "label": "Jag vill ha",
+    "sheet": "want",
+    "index": 0,
+    "single": true
+  },
+  {
     "id": "happy",
     "label": "Glad",
     "sheet": "people",
@@ -780,7 +787,7 @@ export const DEFAULT_BOARDS = freezeSeed([
       {
         "id": "a-want-have",
         "label": "Jag vill ha",
-        "symbol": "have",
+        "symbol": "want",
         "color": "#fff1ba"
       },
       {

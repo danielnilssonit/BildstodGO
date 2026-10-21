@@ -2,7 +2,7 @@
 
 Svensk webapp för kommunikation med bilder och tal.
 
-- 79 efterfrågade ord och 112 originalbilder.
+- 79 efterfrågade ord och 113 originalbilder.
 - 19 upplägg på hyllan och 29 sidor totalt.
 - Peter från ElevenLabs V4 läser upp medföljande ord, fraser och datum.
 - Ett vikt hörn visar att ett kort öppnar fler bilder.
