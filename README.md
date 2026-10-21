@@ -8,7 +8,7 @@ Svensk webapp för kommunikation med bilder och tal.
 - Ett vikt hörn visar att ett kort öppnar fler bilder.
 - Egna upplägg, bilder och meddelanden sparas i webbläsaren.
 
-Appen finns på https://danielnilssonit.github.io/BildstodGO/ när GitHub Pages-publiceringen är klar.
+Öppna appen: https://danielnilssonit.github.io/BildstodGO/
 
 Egna nya texter använder enhetens reservröst om ett Peter-klipp saknas. API-nyckeln finns inte i appen eller repot.
 

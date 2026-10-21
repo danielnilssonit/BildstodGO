@@ -13,12 +13,19 @@
 @media(max-width:600px){.shelf-row:empty{display:none}}
 
 /* A folded paper corner identifies cards that open another set of pictures. */
-.board-tile,.cell.folder{--fold-size:38px;--fold-paper:#dceaf5;--fold-crease:#91aec7;border-top-right-radius:3px;isolation:isolate}
-.cell.folder{--fold-size:34px;--fold-paper:#f3d4a6;--fold-crease:#bc8d56}
+.board-tile,.cell.folder{--fold-size:54px;--fold-paper:#d6e8f7;--fold-crease:#315f86;border-top-right-radius:3px;isolation:isolate}
+.cell.folder{--fold-size:50px;--fold-paper:#f7d7a2}
 .board-tile::before,.cell.folder::before,.board-tile::after,.cell.folder::after{content:'';position:absolute;top:0;right:0;width:var(--fold-size);height:var(--fold-size);pointer-events:none}
-.board-tile::before,.cell.folder::before{z-index:1;clip-path:polygon(0 0,100% 0,100% 100%);background:linear-gradient(45deg,#7096b8 0 49%,#d1e3f2 50% 60%,#8facc4 61% 64%,#edf5fb 65%);border-top-right-radius:2px}
-.board-tile::after,.cell.folder::after{z-index:2;border-bottom-left-radius:7px;background:linear-gradient(45deg,var(--fold-crease) 0%,var(--fold-paper) 35%,#fffaf0 47%,var(--fold-crease) 49%,transparent 50%);filter:drop-shadow(-2px 3px 2px #203b5630)}
+.board-tile::before,.cell.folder::before{z-index:1;clip-path:polygon(0 0,100% 0,100% 100%);background:linear-gradient(45deg,#d9e8f4 0 58%,#46749b 59% 63%,#b8d2e7 64% 72%,#3976a8 73%);border-top-right-radius:2px}
+.board-tile::after,.cell.folder::after{z-index:2;border-left:2px solid var(--fold-crease);border-bottom:2px solid var(--fold-crease);border-bottom-left-radius:7px;background:linear-gradient(45deg,var(--fold-paper) 0%,#fff8e8 37%,var(--fold-paper) 44%,var(--fold-crease) 47%,var(--fold-crease) 50%,transparent 50%);filter:drop-shadow(-3px 4px 2px #173b5d66)}
 .board-tile .edit-badge,.cell.folder .edit-badge{right:auto;left:8px;z-index:3}
-.high-contrast .board-tile,.high-contrast .cell.folder{--fold-crease:#203b56}
-@media(max-width:900px){.board-tile{--fold-size:34px}.cell.folder{--fold-size:30px}}
-@media(max-width:600px){.board-tile{--fold-size:32px}.cell.folder{--fold-size:26px}.board-tile .edit-badge,.cell.folder .edit-badge{left:5px;top:5px}}
+.high-contrast .board-tile,.high-contrast .cell.folder{--fold-crease:#102e4d}
+@media(max-width:900px){.board-tile{--fold-size:46px}.cell.folder{--fold-size:42px}}
+@media(max-width:600px){.board-tile{--fold-size:38px}.cell.folder{--fold-size:36px}.board-tile .edit-badge,.cell.folder .edit-badge{left:5px;top:5px}}
+/* Keep the whole pictogram below the folded corner, including narrow layouts. */
+.shelf-row{height:auto;min-height:clamp(170px,23.5vh,240px);align-items:stretch}
+.board-tile{height:auto;max-height:none;padding-top:calc(var(--fold-size) + 5px)}
+.board-grid:has(.cell.folder){--fold-space:55px;grid-template-rows:repeat(var(--rows),minmax(max-content,1fr))}
+.board-grid:has(.cell.folder) .cell{padding-top:var(--fold-space);min-height:max-content}
+@media(max-width:900px){.board-grid:has(.cell.folder){--fold-space:47px}}
+@media(max-width:600px){.shelf-row{min-height:0}.board-tile{min-height:175px}.board-grid:has(.cell.folder){--fold-space:41px;grid-template-rows:none;grid-auto-rows:minmax(max-content,1fr)}}
