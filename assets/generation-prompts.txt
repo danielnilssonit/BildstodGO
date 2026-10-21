@@ -1,0 +1,36 @@
+objects.png
+Use case: scientific-educational
+Asset type: AAC communication pictogram sprite sheet for an accessible Swedish web app.
+Primary request: Generate one square 2048 by 2048 pixel sheet containing EXACTLY 16 independent pictograms arranged in a mathematically regular 4-column by 4-row grid. Each equal cell is 512 by 512 pixels. The cells are invisible; no lines or grid borders. Put the center of each pictogram precisely at its cell center. Every drawing must fit within the central 65% of its cell with generous empty white separation. Pure white background throughout.
+Style/medium: Extremely simple flat friendly educational AAC pictograms. Consistent bold black contour outlines, clear recognizable shapes, small solid color accents. Clean illustrated raster art, like easy-to-understand communication cards.
+Constraints: Exactly 16 symbols. Correct order is essential. Do not combine symbols across cells. No extra decorations, no captions, labels, title, watermark, letters or words. No shadows, gradients, textures, photographic detail, or 3D.
+Row 1 from left to right: green apple; clear glass of white milk; cheese sandwich; clear glass of blue water.
+Row 2 from left to right: steaming coffee cup; yellow banana; white plate with fork and spoon; ice cream cone.
+Row 3 from left to right: house with red roof; school building; green leafy tree; red car.
+Row 4 from left to right: blue bus; black-and-white soccer ball; closed blue book; bed with pillow and blue blanket.
+
+------------------------------------------------------------
+
+people.png
+Use case: scientific-educational
+Asset type: AAC communication pictogram sprite sheet for an accessible Swedish web app.
+Primary request: Generate one square 2048 by 2048 pixel sheet containing EXACTLY 16 independent pictograms arranged in a mathematically regular 4-column by 4-row grid. Each equal cell is 512 by 512 pixels. The cells are invisible; no lines or grid borders. Put the center of each pictogram precisely at its cell center. Every drawing must fit within the central 65% of its cell with generous empty white separation. Pure white background throughout.
+Style/medium: Extremely simple flat friendly educational AAC pictograms. Consistent bold black contour outlines, clear recognizable shapes, small solid color accents. Clean illustrated raster art, like easy-to-understand communication cards.
+Constraints: Exactly 16 symbols. Correct order is essential. Do not combine symbols across cells. No extra decorations, no captions, labels, title, watermark, letters or words. No shadows, gradients, textures, photographic detail, or 3D.
+Row 1 from left to right: adult person pointing to own chest to mean I; red heart to mean want; hand holding a small blue object to mean have; simple smiling happy face.
+Row 2 from left to right: sad face; angry face; tired sleepy face with closed eyes; worried face.
+Row 3 from left to right: two adult parents standing together with one child; adult woman; adult man; young child.
+Row 4 from left to right: waving open hand; thumbs up hand; front-facing raised hand to mean stop; clothed person sitting on a simple toilet, tasteful non-graphic bathroom pictogram.
+
+------------------------------------------------------------
+
+activities.png
+Use case: scientific-educational
+Asset type: AAC communication pictogram sprite sheet for an accessible Swedish web app.
+Primary request: Generate one square 2048 by 2048 pixel sheet containing EXACTLY 16 independent pictograms arranged in a mathematically regular 4-column by 4-row grid. Each equal cell is 512 by 512 pixels. The cells are invisible; no lines or grid borders. Put the center of each pictogram precisely at its cell center. Every drawing must fit within the central 65% of its cell with generous empty white separation. Pure white background throughout.
+Style/medium: Extremely simple flat friendly educational AAC pictograms. Consistent bold black contour outlines, clear recognizable shapes, small solid color accents. Clean illustrated raster art, like easy-to-understand communication cards.
+Constraints: Exactly 16 symbols. Correct order is essential. Do not combine symbols across cells. No extra decorations, no captions, labels, title, watermark, letters or words. No shadows, gradients, textures, photographic detail, or 3D.
+Row 1 from left to right: bright yellow sun; rainy grey cloud; blue snowflake; calendar page without words or numbers.
+Row 2 from left to right: brown dog; orange cat; black-and-white cow; small blue bird.
+Row 3 from left to right: person walking; person swimming with blue water waves; person working seated at a table; person playing with a ball.
+Row 4 from left to right: envelope with one large @ symbol, the only typographic symbol allowed; shopping list represented by simple lines and small apple drawing; teapot and cup as one paired icon; daily schedule represented by exactly 6 colored squares in a 2-column 3-row arrangement.
