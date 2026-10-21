@@ -1,5 +1,5 @@
-import { SYMBOLS, DEFAULT_BOARDS } from './data.js';
-import { playRecorded, stopRecorded } from './speech.js';
+import { SYMBOLS, DEFAULT_BOARDS } from './data.js?v=8';
+import { playRecorded, stopRecorded } from './speech.js?v=8';
 
 const $ = (s, p=document) => p.querySelector(s);
 const escape = value => String(value ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
@@ -104,4 +104,4 @@ document.addEventListener('keydown',e=>{if(e.key==='Escape'&&!modal.open&&editin
 if('speechSynthesis'in window)speechSynthesis.getVoices();
 render();
 if(storageRecovered)toast('Sparade data kunde inte läsas. Standarduppläggen visas. Du kan importera en säkerhetskopia i Inställningar.',12000);
-if('serviceWorker'in navigator)window.addEventListener('load',()=>navigator.serviceWorker.register('./sw.js').catch(()=>{}));
+if('serviceWorker'in navigator)window.addEventListener('load',()=>navigator.serviceWorker.register('./sw.js?v=8').catch(()=>{}));

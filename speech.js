@@ -1,6 +1,6 @@
 // Only generated audio is served to the browser. There is no API key here.
 let catalog=null;
-const ready=fetch('./audio-index.json').then(r=>r.ok?r.json():null).then(data=>{catalog=data;return data;}).catch(()=>null);
+const ready=fetch('./audio-index.json?v=8').then(r=>r.ok?r.json():null).then(data=>{catalog=data;return data;}).catch(()=>null);
 export const normalizeSpeech=text=>String(text).trim().replace(/\s+/g,' ').replace(/[.!?]+$/g,'').toLocaleLowerCase('sv');
 const player=new Audio();
 player.preload='auto';
