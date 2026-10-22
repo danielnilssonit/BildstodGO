@@ -1,0 +1,26 @@
+Tool: built-in image_gen (no CLI fallback)
+Generated: 2026-10-22
+Output: emotion-heads-v10.png
+
+Use case: scientific-educational.
+Asset type: one square AAC pictogram sprite sheet for a Swedish communication app, exactly a 4 by 4 layout (16 equal square cells).
+Primary request: Show the SAME single gender-neutral adult head in every cell, with ONLY the emotion changing. A head alone; NO neck, shoulders, torso, arms, hands, clothing or props. Same short brown hair silhouette, same simple oval face outline, same pale warm skin tone, same ears, same nose and consistent head size in all 16. This should look like a carefully designed coherent communication symbol set, not emoji. Clean bold black outlines, flat clear colors, simple readable facial expressions. Pure white background.
+Composition: 4 evenly spaced columns and 4 evenly spaced rows. Cell centers are at 12.5%, 37.5%, 62.5% and 87.5% horizontally and vertically. Each head centered precisely in its cell and occupying about 70% cell width and height, with at least 15% white margin. No visible cell boundaries, borders, grid lines or dividers. Every head entirely inside its cell. Square overall canvas.
+Exact left-to-right, top-to-bottom expressions:
+Row 1 col 1: curious, one eyebrow raised and attentive questioning gaze (Nyfiken).
+Row 1 col 2: afraid, wide eyes and open mouth (Rädd).
+Row 1 col 3: uncertain, puzzled asymmetrical eyebrows, uncertain small mouth (Vet inte).
+Row 1 col 4: frustrated, clenched teeth and furrowed eyebrows (Frustrerad).
+Row 2 col 1: embarrassed, rosy cheeks and awkward small smile (Pinsamt).
+Row 2 col 2: disgusted, wrinkled nose, curled upper lip (Äckla).
+Row 2 col 3: satisfied, relaxed brows and content small closed-mouth smile (Nöjd).
+Row 2 col 4: sulky, clear pout and mildly lowered brows (Sur).
+Row 3 col 1: worried, inner eyebrows raised and anxious mouth (Orolig).
+Row 3 col 2: affection, warm soft smile and kind soft eyes (Tycker om).
+Row 3 col 3: happy, large joyful smile, cheerful open eyes (Glad).
+Row 3 col 4: sad, downturned mouth and one tear down cheek (Ledsen).
+Row 4 col 1: angry, strong downward sloping eyebrows and angry frown (Arg).
+Row 4 col 2: having an idea, raised eyebrows and sudden realization smile (Ide).
+Row 4 col 3: neutral, relaxed blank facial expression.
+Row 4 col 4: tired, drooping eyelids and tired mouth.
+Constraints: These words are explanatory only; DO NOT render ANY text, words, letters, numbers, question marks, punctuation, labels, logos, watermarks, hearts, lightbulbs or other symbols. Heads and facial expressions ONLY. No child-like changes between faces, no hair style differences, no changes in age or gender between cells. No shadows or gradients, white background everywhere outside heads. Produce one cohesive sprite-sheet image, not separate image files.

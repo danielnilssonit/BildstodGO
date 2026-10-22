@@ -721,6 +721,317 @@ export const SYMBOLS = freezeSeed([
     "sheet": "god-man",
     "index": 0,
     "single": true
+  },
+  {
+    "id": "wait",
+    "label": "Vänta",
+    "sheet": "v10-wait",
+    "index": 0,
+    "single": true
+  },
+  {
+    "id": "listen",
+    "label": "Lyssna",
+    "sheet": "v10-listen",
+    "index": 0,
+    "single": true
+  },
+  {
+    "id": "free",
+    "label": "Ledig",
+    "sheet": "v10-free",
+    "index": 0,
+    "single": true
+  },
+  {
+    "id": "mother-alone",
+    "label": "Mamma",
+    "sheet": "v10-mother",
+    "index": 0,
+    "single": true
+  },
+  {
+    "id": "father-alone",
+    "label": "Pappa",
+    "sheet": "v10-father",
+    "index": 0,
+    "single": true
+  },
+  {
+    "id": "you",
+    "label": "Du",
+    "sheet": "v10-you",
+    "index": 0,
+    "single": true
+  },
+  {
+    "id": "question-mark",
+    "label": "Frågetecken",
+    "sheet": "v10-question",
+    "index": 0,
+    "single": true
+  },
+  {
+    "id": "gympa",
+    "label": "Gympa",
+    "sheet": "v10-gympa",
+    "index": 0,
+    "single": true
+  },
+  {
+    "id": "dv",
+    "label": "DV",
+    "sheet": "v10-dv",
+    "index": 0,
+    "single": true
+  },
+  {
+    "id": "taxi",
+    "label": "Taxi",
+    "sheet": "v10-taxi",
+    "index": 0,
+    "single": true
+  },
+  {
+    "id": "restaurant",
+    "label": "Restaurang",
+    "sheet": "v10-restaurant",
+    "index": 0,
+    "single": true
+  },
+  {
+    "id": "emotion-curious",
+    "label": "Nyfiken",
+    "sheet": "emotion-heads-v10",
+    "index": 0
+  },
+  {
+    "id": "emotion-afraid",
+    "label": "Rädd",
+    "sheet": "emotion-heads-v10",
+    "index": 1
+  },
+  {
+    "id": "emotion-unsure",
+    "label": "Vet inte",
+    "sheet": "emotion-heads-v10",
+    "index": 2
+  },
+  {
+    "id": "emotion-frustrated",
+    "label": "Frustrerad",
+    "sheet": "emotion-heads-v10",
+    "index": 3
+  },
+  {
+    "id": "emotion-embarrassed",
+    "label": "Pinsamt",
+    "sheet": "emotion-heads-v10",
+    "index": 4
+  },
+  {
+    "id": "emotion-disgust",
+    "label": "Äckla",
+    "sheet": "emotion-heads-v10",
+    "index": 5
+  },
+  {
+    "id": "emotion-satisfied",
+    "label": "Nöjd",
+    "sheet": "emotion-heads-v10",
+    "index": 6
+  },
+  {
+    "id": "emotion-sulky",
+    "label": "Sur",
+    "sheet": "emotion-heads-v10",
+    "index": 7
+  },
+  {
+    "id": "emotion-worried",
+    "label": "Orolig",
+    "sheet": "emotion-heads-v10",
+    "index": 8
+  },
+  {
+    "id": "emotion-heart",
+    "label": "Tycker om",
+    "sheet": "emotion-heads-v10",
+    "index": 9
+  },
+  {
+    "id": "emotion-happy",
+    "label": "Glad",
+    "sheet": "emotion-heads-v10",
+    "index": 10
+  },
+  {
+    "id": "emotion-sad",
+    "label": "Ledsen",
+    "sheet": "emotion-heads-v10",
+    "index": 11
+  },
+  {
+    "id": "emotion-angry",
+    "label": "Arg",
+    "sheet": "emotion-heads-v10",
+    "index": 12
+  },
+  {
+    "id": "emotion-idea",
+    "label": "Ide",
+    "sheet": "emotion-heads-v10",
+    "index": 13
+  },
+  {
+    "id": "alphabet",
+    "label": "Bokstäver",
+    "glyph": "ABC"
+  },
+  {
+    "id": "letter-01",
+    "label": "A",
+    "glyph": "A"
+  },
+  {
+    "id": "letter-02",
+    "label": "B",
+    "glyph": "B"
+  },
+  {
+    "id": "letter-03",
+    "label": "C",
+    "glyph": "C"
+  },
+  {
+    "id": "letter-04",
+    "label": "D",
+    "glyph": "D"
+  },
+  {
+    "id": "letter-05",
+    "label": "E",
+    "glyph": "E"
+  },
+  {
+    "id": "letter-06",
+    "label": "F",
+    "glyph": "F"
+  },
+  {
+    "id": "letter-07",
+    "label": "G",
+    "glyph": "G"
+  },
+  {
+    "id": "letter-08",
+    "label": "H",
+    "glyph": "H"
+  },
+  {
+    "id": "letter-09",
+    "label": "I",
+    "glyph": "I"
+  },
+  {
+    "id": "letter-10",
+    "label": "J",
+    "glyph": "J"
+  },
+  {
+    "id": "letter-11",
+    "label": "K",
+    "glyph": "K"
+  },
+  {
+    "id": "letter-12",
+    "label": "L",
+    "glyph": "L"
+  },
+  {
+    "id": "letter-13",
+    "label": "M",
+    "glyph": "M"
+  },
+  {
+    "id": "letter-14",
+    "label": "N",
+    "glyph": "N"
+  },
+  {
+    "id": "letter-15",
+    "label": "O",
+    "glyph": "O"
+  },
+  {
+    "id": "letter-16",
+    "label": "P",
+    "glyph": "P"
+  },
+  {
+    "id": "letter-17",
+    "label": "Q",
+    "glyph": "Q"
+  },
+  {
+    "id": "letter-18",
+    "label": "R",
+    "glyph": "R"
+  },
+  {
+    "id": "letter-19",
+    "label": "S",
+    "glyph": "S"
+  },
+  {
+    "id": "letter-20",
+    "label": "T",
+    "glyph": "T"
+  },
+  {
+    "id": "letter-21",
+    "label": "U",
+    "glyph": "U"
+  },
+  {
+    "id": "letter-22",
+    "label": "V",
+    "glyph": "V"
+  },
+  {
+    "id": "letter-23",
+    "label": "W",
+    "glyph": "W"
+  },
+  {
+    "id": "letter-24",
+    "label": "X",
+    "glyph": "X"
+  },
+  {
+    "id": "letter-25",
+    "label": "Y",
+    "glyph": "Y"
+  },
+  {
+    "id": "letter-26",
+    "label": "Z",
+    "glyph": "Z"
+  },
+  {
+    "id": "letter-27",
+    "label": "Å",
+    "glyph": "Å"
+  },
+  {
+    "id": "letter-28",
+    "label": "Ä",
+    "glyph": "Ä"
+  },
+  {
+    "id": "letter-29",
+    "label": "Ö",
+    "glyph": "Ö"
   }
 ]);
 
@@ -730,7 +1041,7 @@ export const DEFAULT_BOARDS = freezeSeed([
     "title": "Kommunikation",
     "symbol": "self",
     "columns": 4,
-    "rows": 5,
+    "rows": 4,
     "messageBar": true,
     "showOnHome": true,
     "color": "#d6e6ee",
@@ -792,51 +1103,15 @@ export const DEFAULT_BOARDS = freezeSeed([
         "color": "#fff1ba"
       },
       {
-        "id": "b-hi",
-        "label": "Hej!",
-        "symbol": "wave"
-      },
-      {
         "id": "b-help",
         "label": "Hjälp mig",
         "symbol": "have",
         "speech": "Kan du hjälpa mig?"
       },
       {
-        "id": "b-thanks",
-        "label": "Tack!",
-        "symbol": "heart"
-      },
-      {
-        "id": "b-food",
-        "label": "Jag är hungrig",
-        "symbol": "meal"
-      },
-      {
-        "id": "b-water",
-        "label": "Jag är törstig",
-        "symbol": "water"
-      },
-      {
-        "id": "b-toilet",
-        "label": "Toalett",
-        "symbol": "toilet",
-        "speech": "Jag behöver gå på toaletten"
-      },
-      {
-        "id": "b-break",
-        "label": "Jag vill vila",
-        "symbol": "bed"
-      },
-      {
         "id": "b-stop",
         "label": "Stopp",
         "symbol": "stop"
-      },
-      {
-        "id": "b-again",
-        "label": "En gång till",
-        "symbol": "yes"
       },
       {
         "id": "communication-helg",
@@ -846,54 +1121,21 @@ export const DEFAULT_BOARDS = freezeSeed([
       },
       {
         "id": "communication-semester",
-        "label": "Semester",
-        "symbol": "semester",
-        "speech": "Semester"
-      }
-    ]
-  },
-  {
-    "id": "arbeta-dv",
-    "title": "arbeta DV",
-    "symbol": "work",
-    "columns": 3,
-    "rows": 2,
-    "messageBar": true,
-    "showOnHome": true,
-    "color": "#dce7d2",
-    "cells": [
-      {
-        "id": "work-start",
-        "label": "Börja arbeta",
-        "symbol": "work",
-        "speech": "Jag är redo att börja arbeta"
+        "label": "Ledig",
+        "symbol": "free",
+        "speech": "Ledig"
       },
       {
-        "id": "work-task",
-        "label": "Vad ska jag göra?",
-        "symbol": "list"
+        "id": "communication-wait",
+        "label": "Vänta",
+        "symbol": "wait",
+        "speech": "Vänta"
       },
       {
-        "id": "work-help",
-        "label": "Jag behöver hjälp",
-        "symbol": "have"
-      },
-      {
-        "id": "work-break",
-        "label": "Ta en paus",
-        "symbol": "tea",
-        "speech": "Jag vill ta en paus"
-      },
-      {
-        "id": "work-done",
-        "label": "Jag är klar",
-        "symbol": "yes"
-      },
-      {
-        "id": "work-home",
-        "label": "Åka hem",
-        "symbol": "home",
-        "speech": "Jag vill åka hem"
+        "id": "communication-listen",
+        "label": "Lyssna",
+        "symbol": "listen",
+        "speech": "Lyssna"
       }
     ]
   },
@@ -946,96 +1188,6 @@ export const DEFAULT_BOARDS = freezeSeed([
         "id": "shop-icecream",
         "label": "glass",
         "symbol": "icecream"
-      }
-    ]
-  },
-  {
-    "id": "taxiresa",
-    "title": "taxiresa",
-    "symbol": "car",
-    "columns": 3,
-    "rows": 2,
-    "messageBar": true,
-    "showOnHome": true,
-    "color": "#d6e5f0",
-    "cells": [
-      {
-        "id": "taxi-hi",
-        "label": "Hej!",
-        "symbol": "wave"
-      },
-      {
-        "id": "taxi-home",
-        "label": "Jag ska hem",
-        "symbol": "home"
-      },
-      {
-        "id": "taxi-work",
-        "label": "Till arbetet",
-        "symbol": "work",
-        "speech": "Jag ska till min dagliga verksamhet"
-      },
-      {
-        "id": "taxi-wait",
-        "label": "Vänta lite",
-        "symbol": "stop"
-      },
-      {
-        "id": "taxi-help",
-        "label": "Hjälp mig, tack",
-        "symbol": "have"
-      },
-      {
-        "id": "taxi-bye",
-        "label": "Tack för resan!",
-        "symbol": "heart"
-      }
-    ]
-  },
-  {
-    "id": "fika",
-    "title": "fika",
-    "symbol": "coffee",
-    "columns": 3,
-    "rows": 2,
-    "messageBar": true,
-    "showOnHome": true,
-    "color": "#efddca",
-    "cells": [
-      {
-        "id": "fika-coffee",
-        "label": "kaffe",
-        "symbol": "coffee",
-        "speech": "Jag vill ha kaffe"
-      },
-      {
-        "id": "fika-tea",
-        "label": "te",
-        "symbol": "tea",
-        "speech": "Jag vill ha te"
-      },
-      {
-        "id": "fika-water",
-        "label": "vatten",
-        "symbol": "water",
-        "speech": "Jag vill ha vatten"
-      },
-      {
-        "id": "fika-milk",
-        "label": "mjölk",
-        "symbol": "milk",
-        "speech": "Jag vill ha mjölk"
-      },
-      {
-        "id": "fika-sandwich",
-        "label": "smörgås",
-        "symbol": "sandwich",
-        "speech": "Jag vill ha en smörgås"
-      },
-      {
-        "id": "fika-more",
-        "label": "Lite till, tack",
-        "symbol": "have"
       }
     ]
   },
@@ -1442,7 +1594,7 @@ export const DEFAULT_BOARDS = freezeSeed([
   {
     "id": "ord-kanslor",
     "title": "Känslor",
-    "symbol": "curious",
+    "symbol": "emotion-happy",
     "columns": 4,
     "rows": 4,
     "messageBar": true,
@@ -1452,98 +1604,98 @@ export const DEFAULT_BOARDS = freezeSeed([
       {
         "id": "ord-kanslor-curious",
         "label": "Nyfiken",
-        "symbol": "curious",
+        "symbol": "emotion-curious",
         "speech": "Nyfiken",
         "color": "#e8d7ed"
       },
       {
         "id": "ord-kanslor-afraid",
         "label": "Rädd",
-        "symbol": "afraid",
+        "symbol": "emotion-afraid",
         "speech": "Rädd",
         "color": "#e8d7ed"
       },
       {
         "id": "ord-kanslor-unsure",
         "label": "Vet inte",
-        "symbol": "unsure",
+        "symbol": "emotion-unsure",
         "speech": "Vet inte",
         "color": "#e8d7ed"
       },
       {
         "id": "ord-kanslor-frustrated",
         "label": "Frustrerad",
-        "symbol": "frustrated",
+        "symbol": "emotion-frustrated",
         "speech": "Frustrerad",
         "color": "#e8d7ed"
       },
       {
         "id": "ord-kanslor-embarrassed",
         "label": "Pinsamt",
-        "symbol": "embarrassed",
+        "symbol": "emotion-embarrassed",
         "speech": "Pinsamt",
         "color": "#e8d7ed"
       },
       {
         "id": "ord-kanslor-disgust",
         "label": "Äckla",
-        "symbol": "disgust",
+        "symbol": "emotion-disgust",
         "speech": "Äckla",
         "color": "#e8d7ed"
       },
       {
         "id": "ord-kanslor-satisfied",
         "label": "Nöjd",
-        "symbol": "satisfied",
+        "symbol": "emotion-satisfied",
         "speech": "Nöjd",
         "color": "#e8d7ed"
       },
       {
         "id": "ord-kanslor-sulky",
         "label": "Sur",
-        "symbol": "sulky",
+        "symbol": "emotion-sulky",
         "speech": "Sur",
         "color": "#e8d7ed"
       },
       {
         "id": "ord-kanslor-worried",
         "label": "Orolig",
-        "symbol": "worried",
+        "symbol": "emotion-worried",
         "speech": "Orolig",
         "color": "#e8d7ed"
       },
       {
         "id": "ord-kanslor-heart",
         "label": "Tycker om",
-        "symbol": "heart",
+        "symbol": "emotion-heart",
         "speech": "Tycker om",
         "color": "#e8d7ed"
       },
       {
         "id": "ord-kanslor-happy",
         "label": "Glad",
-        "symbol": "happy",
+        "symbol": "emotion-happy",
         "speech": "Glad",
         "color": "#e8d7ed"
       },
       {
         "id": "ord-kanslor-sad",
         "label": "Ledsen",
-        "symbol": "sad",
+        "symbol": "emotion-sad",
         "speech": "Ledsen",
         "color": "#e8d7ed"
       },
       {
         "id": "ord-kanslor-angry",
         "label": "Arg",
-        "symbol": "angry",
+        "symbol": "emotion-angry",
         "speech": "Arg",
         "color": "#e8d7ed"
       },
       {
         "id": "ord-kanslor-idea",
         "label": "Ide",
-        "symbol": "idea",
+        "symbol": "emotion-idea",
         "speech": "Idé",
         "color": "#e8d7ed"
       }
@@ -1576,7 +1728,7 @@ export const DEFAULT_BOARDS = freezeSeed([
       {
         "id": "ord-fragor-how",
         "label": "Hur",
-        "symbol": "how",
+        "symbol": "question-mark",
         "speech": "Hur",
         "color": "#d5e9f3"
       },
@@ -1590,14 +1742,14 @@ export const DEFAULT_BOARDS = freezeSeed([
       {
         "id": "ord-fragor-what",
         "label": "Vad",
-        "symbol": "what",
+        "symbol": "question-mark",
         "speech": "Vad",
         "color": "#d5e9f3"
       },
       {
         "id": "ord-fragor-why",
         "label": "Varför",
-        "symbol": "why",
+        "symbol": "question-mark",
         "speech": "Varför",
         "color": "#d5e9f3"
       },
@@ -1635,13 +1787,6 @@ export const DEFAULT_BOARDS = freezeSeed([
         "symbol": "talk",
         "speech": "Berätta",
         "color": "#d5e9f3"
-      },
-      {
-        "id": "ord-fragor-join",
-        "label": "Får jag vara med",
-        "symbol": "join",
-        "speech": "Får jag vara med",
-        "color": "#d5e9f3"
       }
     ]
   },
@@ -1650,7 +1795,7 @@ export const DEFAULT_BOARDS = freezeSeed([
     "title": "Personer",
     "symbol": "visual-support",
     "columns": 4,
-    "rows": 5,
+    "rows": 3,
     "messageBar": true,
     "showOnHome": true,
     "color": "#f8ddbd",
@@ -1670,30 +1815,16 @@ export const DEFAULT_BOARDS = freezeSeed([
         "color": "#f8ddbd"
       },
       {
-        "id": "ord-personer-goods-board",
-        "label": "Bildstöd varor",
-        "symbol": "goods-board",
-        "speech": "Bildstöd varor",
-        "color": "#f8ddbd"
-      },
-      {
-        "id": "ord-personer-visual-support",
-        "label": "Bildstöd",
-        "symbol": "visual-support",
-        "speech": "Bildstöd",
-        "color": "#f8ddbd"
-      },
-      {
         "id": "ord-personer-mother",
         "label": "Mamma",
-        "symbol": "mother",
+        "symbol": "mother-alone",
         "speech": "Mamma",
         "color": "#f8ddbd"
       },
       {
         "id": "ord-personer-father",
         "label": "Pappa",
-        "symbol": "father",
+        "symbol": "father-alone",
         "speech": "Pappa",
         "color": "#f8ddbd"
       },
@@ -1705,48 +1836,20 @@ export const DEFAULT_BOARDS = freezeSeed([
         "color": "#f8ddbd"
       },
       {
-        "id": "ord-personer-phone",
-        "label": "Telefon",
-        "symbol": "phone",
-        "speech": "Telefon",
-        "color": "#f8ddbd"
-      },
-      {
-        "id": "ord-personer-tablet",
-        "label": "Ipad",
-        "symbol": "tablet",
-        "speech": "Ipad",
-        "color": "#f8ddbd"
-      },
-      {
         "id": "people-me",
         "label": "jag",
         "symbol": "self"
       },
       {
         "id": "people-you",
-        "label": "du",
-        "symbol": "wave"
+        "label": "Du",
+        "symbol": "you",
+        "speech": "Du"
       },
       {
         "id": "people-family",
         "label": "min familj",
         "symbol": "family"
-      },
-      {
-        "id": "people-woman",
-        "label": "en kvinna",
-        "symbol": "woman"
-      },
-      {
-        "id": "people-man",
-        "label": "en man",
-        "symbol": "man"
-      },
-      {
-        "id": "people-child",
-        "label": "ett barn",
-        "symbol": "child"
       },
       {
         "id": "people-chef-boende",
@@ -1863,11 +1966,10 @@ export const DEFAULT_BOARDS = freezeSeed([
         "color": "#fff1ba"
       },
       {
-        "id": "ord-vardag-plastic",
-        "label": "Plast",
-        "symbol": "plastic",
-        "speech": "Plast",
-        "color": "#fff1ba"
+        "id": "ord-vardag-visual-support",
+        "label": "Bildstöd",
+        "symbol": "visual-support",
+        "speech": "Bildstöd"
       }
     ]
   },
@@ -2005,7 +2107,7 @@ export const DEFAULT_BOARDS = freezeSeed([
     "title": "Platser och fritid",
     "symbol": "park",
     "columns": 4,
-    "rows": 4,
+    "rows": 5,
     "messageBar": true,
     "showOnHome": true,
     "color": "#d9eac8",
@@ -2118,9 +2220,213 @@ export const DEFAULT_BOARDS = freezeSeed([
       {
         "id": "ord-platser-car",
         "label": "Taxi",
-        "symbol": "car",
+        "symbol": "taxi",
         "speech": "Taxi",
         "color": "#d9eac8"
+      },
+      {
+        "id": "ord-platser-gympa",
+        "label": "Gympa",
+        "symbol": "gympa",
+        "speech": "Gympa"
+      },
+      {
+        "id": "ord-platser-dv",
+        "label": "DV",
+        "symbol": "dv",
+        "speech": "DV"
+      },
+      {
+        "id": "ord-platser-restaurant",
+        "label": "Restaurang",
+        "symbol": "restaurant",
+        "speech": "Restaurang"
+      }
+    ]
+  },
+  {
+    "id": "bokstaver",
+    "title": "Bokstäver",
+    "symbol": "alphabet",
+    "columns": 5,
+    "rows": 6,
+    "messageBar": true,
+    "showOnHome": true,
+    "color": "#dfead4",
+    "cells": [
+      {
+        "id": "letter-01",
+        "label": "A",
+        "symbol": "letter-01",
+        "speech": "A"
+      },
+      {
+        "id": "letter-02",
+        "label": "B",
+        "symbol": "letter-02",
+        "speech": "B"
+      },
+      {
+        "id": "letter-03",
+        "label": "C",
+        "symbol": "letter-03",
+        "speech": "C"
+      },
+      {
+        "id": "letter-04",
+        "label": "D",
+        "symbol": "letter-04",
+        "speech": "D"
+      },
+      {
+        "id": "letter-05",
+        "label": "E",
+        "symbol": "letter-05",
+        "speech": "E"
+      },
+      {
+        "id": "letter-06",
+        "label": "F",
+        "symbol": "letter-06",
+        "speech": "F"
+      },
+      {
+        "id": "letter-07",
+        "label": "G",
+        "symbol": "letter-07",
+        "speech": "G"
+      },
+      {
+        "id": "letter-08",
+        "label": "H",
+        "symbol": "letter-08",
+        "speech": "H"
+      },
+      {
+        "id": "letter-09",
+        "label": "I",
+        "symbol": "letter-09",
+        "speech": "I"
+      },
+      {
+        "id": "letter-10",
+        "label": "J",
+        "symbol": "letter-10",
+        "speech": "J"
+      },
+      {
+        "id": "letter-11",
+        "label": "K",
+        "symbol": "letter-11",
+        "speech": "K"
+      },
+      {
+        "id": "letter-12",
+        "label": "L",
+        "symbol": "letter-12",
+        "speech": "L"
+      },
+      {
+        "id": "letter-13",
+        "label": "M",
+        "symbol": "letter-13",
+        "speech": "M"
+      },
+      {
+        "id": "letter-14",
+        "label": "N",
+        "symbol": "letter-14",
+        "speech": "N"
+      },
+      {
+        "id": "letter-15",
+        "label": "O",
+        "symbol": "letter-15",
+        "speech": "O"
+      },
+      {
+        "id": "letter-16",
+        "label": "P",
+        "symbol": "letter-16",
+        "speech": "P"
+      },
+      {
+        "id": "letter-17",
+        "label": "Q",
+        "symbol": "letter-17",
+        "speech": "Q"
+      },
+      {
+        "id": "letter-18",
+        "label": "R",
+        "symbol": "letter-18",
+        "speech": "R"
+      },
+      {
+        "id": "letter-19",
+        "label": "S",
+        "symbol": "letter-19",
+        "speech": "S"
+      },
+      {
+        "id": "letter-20",
+        "label": "T",
+        "symbol": "letter-20",
+        "speech": "T"
+      },
+      {
+        "id": "letter-21",
+        "label": "U",
+        "symbol": "letter-21",
+        "speech": "U"
+      },
+      {
+        "id": "letter-22",
+        "label": "V",
+        "symbol": "letter-22",
+        "speech": "V"
+      },
+      {
+        "id": "letter-23",
+        "label": "W",
+        "symbol": "letter-23",
+        "speech": "W"
+      },
+      {
+        "id": "letter-24",
+        "label": "X",
+        "symbol": "letter-24",
+        "speech": "X"
+      },
+      {
+        "id": "letter-25",
+        "label": "Y",
+        "symbol": "letter-25",
+        "speech": "Y"
+      },
+      {
+        "id": "letter-26",
+        "label": "Z",
+        "symbol": "letter-26",
+        "speech": "Z"
+      },
+      {
+        "id": "letter-27",
+        "label": "Å",
+        "symbol": "letter-27",
+        "speech": "Å"
+      },
+      {
+        "id": "letter-28",
+        "label": "Ä",
+        "symbol": "letter-28",
+        "speech": "Ä"
+      },
+      {
+        "id": "letter-29",
+        "label": "Ö",
+        "symbol": "letter-29",
+        "speech": "Ö"
       }
     ]
   }

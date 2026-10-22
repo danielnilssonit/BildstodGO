@@ -29,3 +29,5 @@
 .board-grid:has(.cell.folder) .cell{padding-top:var(--fold-space);min-height:max-content}
 @media(max-width:900px){.board-grid:has(.cell.folder){--fold-space:47px}}
 @media(max-width:600px){.shelf-row{min-height:0}.board-tile{min-height:175px}.board-grid:has(.cell.folder){--fold-space:41px;grid-template-rows:none;grid-auto-rows:minmax(max-content,1fr)}}
+/* Swedish alphabet uses sharp text glyphs at every screen size. */
+.symbol.glyph{display:flex;align-items:center;justify-content:center;background:none;mix-blend-mode:normal;font-family:Arial,sans-serif;font-weight:700;font-size:64px;line-height:1;color:#203b56}.symbol.alphabet-glyph{font-size:36px;letter-spacing:-2px}.cell .symbol.glyph{font-size:clamp(52px,9vh,88px)}.word-chip .symbol.glyph{font-size:44px}.symbol-option .symbol.glyph{font-size:42px}
