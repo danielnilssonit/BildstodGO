@@ -1,6 +1,6 @@
-import { SYMBOLS, DEFAULT_BOARDS } from './data.js?v=10';
-import { playRecorded, stopRecorded } from './speech.js?v=10';
-import { updateContent, CONTENT_REVISION } from './content-updates.js?v=10';
+import { SYMBOLS, DEFAULT_BOARDS } from './data.js?v=11';
+import { playRecorded, stopRecorded } from './speech.js?v=11';
+import { updateContent, CONTENT_REVISION } from './content-updates.js?v=11';
 
 const $ = (s, p=document) => p.querySelector(s);
 const escape = value => String(value ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
@@ -108,4 +108,4 @@ if('speechSynthesis'in window)speechSynthesis.getVoices();
 if(contentUpdated&&!storageRecovered)persist();
 render();
 if(storageRecovered)toast('Sparade data kunde inte läsas. Standarduppläggen visas. Du kan importera en säkerhetskopia i Inställningar.',12000);
-if('serviceWorker'in navigator)window.addEventListener('load',()=>navigator.serviceWorker.register('./sw.js?v=10').catch(()=>{}));
+if('serviceWorker'in navigator)window.addEventListener('load',()=>navigator.serviceWorker.register('./sw.js?v=11').catch(()=>{}));

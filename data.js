@@ -365,7 +365,7 @@ export const SYMBOLS = freezeSeed([
   },
   {
     "id": "idea",
-    "label": "Ide",
+    "label": "Idé",
     "sheet": "emotions-extra",
     "index": 10
   },
@@ -802,8 +802,9 @@ export const SYMBOLS = freezeSeed([
   {
     "id": "emotion-curious",
     "label": "Nyfiken",
-    "sheet": "emotion-heads-v10",
-    "index": 0
+    "sheet": "emotion-curious-v11",
+    "index": 0,
+    "single": true
   },
   {
     "id": "emotion-afraid",
@@ -814,8 +815,9 @@ export const SYMBOLS = freezeSeed([
   {
     "id": "emotion-unsure",
     "label": "Vet inte",
-    "sheet": "emotion-heads-v10",
-    "index": 2
+    "sheet": "emotion-unsure-v11",
+    "index": 0,
+    "single": true
   },
   {
     "id": "emotion-frustrated",
@@ -879,9 +881,10 @@ export const SYMBOLS = freezeSeed([
   },
   {
     "id": "emotion-idea",
-    "label": "Ide",
-    "sheet": "emotion-heads-v10",
-    "index": 13
+    "label": "Idé",
+    "sheet": "emotion-idea-v11",
+    "index": 0,
+    "single": true
   },
   {
     "id": "alphabet",
@@ -1694,7 +1697,7 @@ export const DEFAULT_BOARDS = freezeSeed([
       },
       {
         "id": "ord-kanslor-idea",
-        "label": "Ide",
+        "label": "Idé",
         "symbol": "emotion-idea",
         "speech": "Idé",
         "color": "#e8d7ed"

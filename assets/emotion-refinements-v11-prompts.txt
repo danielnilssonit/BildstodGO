@@ -1,0 +1,30 @@
+Built-in image_gen used for three transparent PNGs. No CLI fallback.
+Reference: emotion-heads-v10.png, viewed before editing.
+
+emotion-curious-v11.png
+
+Use case: scientific-educational. Asset type: a SINGLE square AAC pictogram to be shown small on a pink communication tile.
+Input image role: character and illustration style reference ONLY. The input is a 4x4 sheet; output exactly ONE character head, NOT a sheet.
+Preserve the exact character from the reference: the same gender-neutral adult oval head shape, same short jagged brown hair with the same fringe shape and hair color, pale warm peach skin, ears, small rounded nose, black pupils in white eyes, and clean bold black outlines. Use the SAME face identity and approximate head proportions; change expression and pose only as described. The image contains ONLY a floating head, absolutely no neck, shoulders, body, hands, arms, clothing or surrounding scene.
+Flat clear colors with minimal shading like the reference. Large high-contrast readable forms. True transparent background outside the pictogram, no white rectangle or colored background. Center the composition on a square canvas with comfortable transparent padding, head itself filling around 65-70% of canvas height. No words, letters, labels, numbers, logo or watermark.
+Primary concept: NYFIKEN, curiosity, looking interested and keen to learn. The head is tilted noticeably about 12 degrees, alert eyes looking forward attentively, ONE eyebrow clearly raised higher than the other, and a small clear expectant smile. Friendly engaged expression; distinctly curious and interested, never sad, confused, worried or afraid. No auxiliary symbols, punctuation or props for this image. Head only. Make the interested smile and intentional tilted head visually distinctive at small size.
+
+===========================
+
+emotion-unsure-v11.png
+
+Use case: scientific-educational. Asset type: a SINGLE square AAC pictogram to be shown small on a pink communication tile.
+Input image role: character and illustration style reference ONLY. The input is a 4x4 sheet; output exactly ONE character head, NOT a sheet.
+Preserve the exact character from the reference: the same gender-neutral adult oval head shape, same short jagged brown hair with the same fringe shape and hair color, pale warm peach skin, ears, small rounded nose, black pupils in white eyes, and clean bold black outlines. Use the SAME face identity and approximate head proportions; change expression and pose only as described. The image contains ONLY a floating head, absolutely no neck, shoulders, body, hands, arms, clothing or surrounding scene.
+Flat clear colors with minimal shading like the reference. Large high-contrast readable forms. True transparent background outside the pictogram, no white rectangle or colored background. Center the composition on a square canvas with comfortable transparent padding, head itself filling around 65-70% of canvas height. No words, letters, labels, numbers, logo or watermark.
+Primary concept: VET INTE, I don't know, clearly uncertain and puzzled. Head upright; sharply asymmetric eyebrows (one inner brow raised, the other furrowed), eyes looking slightly upward to one side, and a small unmistakably WAVY uncertain mouth, not a smile. Add ONE large bold dark blue question mark beside and above the head on the viewer's right, with a clear separated dot and thick dark outline; this is an allowed conceptual symbol, not a text label. The question mark must be easily recognized at small size and must not overlap the face. Entire head plus question mark fit well inside the square. No other marks or objects. This should read 'unsure / I don't know' and differ strongly from friendly curiosity.
+
+===========================
+
+emotion-idea-v11.png
+
+Use case: scientific-educational. Asset type: a SINGLE square AAC pictogram to be shown small on a pink communication tile.
+Input image role: character and illustration style reference ONLY. The input is a 4x4 sheet; output exactly ONE character head, NOT a sheet.
+Preserve the exact character from the reference: the same gender-neutral adult oval head shape, same short jagged brown hair with the same fringe shape and hair color, pale warm peach skin, ears, small rounded nose, black pupils in white eyes, and clean bold black outlines. Use the SAME face identity and approximate head proportions; change expression and pose only as described. The image contains ONLY a floating head, absolutely no neck, shoulders, body, hands, arms, clothing or surrounding scene.
+Flat clear colors with minimal shading like the reference. Large high-contrast readable forms. True transparent background outside the pictogram, no white rectangle or colored background. Center the composition on a square canvas with comfortable transparent padding, head itself filling around 65-70% of canvas height. No words, letters, labels, numbers, logo or watermark.
+Primary concept: IDÉ, having an idea, a clear 'aha!' realization. Head upright; BOTH eyebrows raised, bright alert open eyes and a small confident realization smile. Add ONE clear bright YELLOW LIT LIGHT BULB beside and above the head on the viewer's right. Bulb: classic round yellow bulb with simple gray screw base, bold black outline and three short clean yellow/black light rays. The bulb is an allowed conceptual symbol and must be large and unmistakable at small size, separated from the head with a small gap. Entire head, bulb and rays fit inside the square. No other marks or objects. Keep the head an adult character identical to the reference, not a light bulb for a head.

@@ -29,6 +29,8 @@ Repot [danielnilssonit/bildstod](https://github.com/danielnilssonit/bildstod) in
 
 ## Om bilderna
 
+Nyfiken, Vet inte och Idé har skilda uttryck. Vet inte har ett frågetecken och Idé en tänd glödlampa som stöd för betydelsen. Bildprompter finns i `assets/emotion-refinements-v11-prompts.txt`.
+
 Appen är en fristående återskapning av flöden i introduktionsvideon till Widgit Go SE. Alla symbolbilder är nygenererade med AI; Widgits licensierade symbolbibliotek ingår inte.
 
 Prompterna för de senaste bilderna finns i [v10-generation-prompts.txt](assets/v10-generation-prompts.txt) och [emotion-heads-v10-prompt.txt](assets/emotion-heads-v10-prompt.txt). Bokstavskorten visas som text och är inte AI-genererade bilder.

@@ -1,6 +1,6 @@
-import { DEFAULT_BOARDS } from './data.js?v=10';
+import { DEFAULT_BOARDS } from './data.js?v=11';
 
-export const CONTENT_REVISION = 2;
+export const CONTENT_REVISION = 3;
 const copy = value => JSON.parse(JSON.stringify(value));
 const removed = new Set(['ja-nej','kommunikation-b','min-saga','idag','djur-och-ljud','skriva-mail','schema-dv','personer']);
 const aliases = {'ja-nej':'kommunikation-a','kommunikation-b':'kommunikation-a',personer:'ord-personer'};
@@ -69,8 +69,8 @@ function updateFirstRevision(state) {
   return result;
 }
 
-export function updateContent(state) {
-  if (state.contentRevision >= CONTENT_REVISION) return state;
+function updateSecondRevision(state) {
+  if (state.contentRevision >= 2) return state;
   const result = copy(updateFirstRevision(state));
   const seed = id => DEFAULT_BOARDS.find(board => board.id === id);
   const norm = label => label.trim().toLocaleLowerCase('sv').replace(/[.!?]+$/,'');
@@ -136,6 +136,22 @@ export function updateContent(state) {
   resize(places,5);
   if (!get('bokstaver')) result.boards.push(copy(seed('bokstaver')));
   for (const board of result.boards) for (const cell of board.cells) if (cell?.target && deletedBoards.has(cell.target)) delete cell.target;
+  result.contentRevision = 2;
+  return result;
+}
+
+// Correct the standard label once without changing personal pictures or text.
+export function updateContent(state) {
+  if (state.contentRevision >= CONTENT_REVISION) return state;
+  const result = copy(updateSecondRevision(state));
+  const feelings = result.boards.find(board => board.id === 'ord-kanslor');
+  for (const cell of feelings?.cells || []) {
+    if (!cell || cell.id !== 'ord-kanslor-idea') continue;
+    const standardLabel = ['ide','idé'].includes(cell.label.trim().toLocaleLowerCase('sv'));
+    if (cell.label.trim().toLocaleLowerCase('sv') === 'ide') cell.label = 'Idé';
+    if (standardLabel && cell.speech?.trim().toLocaleLowerCase('sv') === 'ide') cell.speech = 'Idé';
+    if (!cell.image && ['idea','emotion-idea'].includes(cell.symbol) && cell.label === 'Idé') cell.symbol = 'emotion-idea';
+  }
   result.contentRevision = CONTENT_REVISION;
   return result;
 }
