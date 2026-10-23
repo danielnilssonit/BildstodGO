@@ -1,4 +1,4 @@
-import { DEFAULT_BOARDS } from './data.js?v=12';
+import { DEFAULT_BOARDS } from './data.js?v=13';
 
 export const CONTENT_REVISION = 4;
 const copy = value => JSON.parse(JSON.stringify(value));

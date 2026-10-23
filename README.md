@@ -38,3 +38,5 @@ Nyfiken, Vet inte och Idé har skilda uttryck. Vet inte har ett frågetecken och
 Appen är en fristående återskapning av flöden i introduktionsvideon till Widgit Go SE. Alla symbolbilder är nygenererade med AI; Widgits licensierade symbolbibliotek ingår inte.
 
 Prompterna för de senaste bilderna finns i [v10-generation-prompts.txt](assets/v10-generation-prompts.txt) och [emotion-heads-v10-prompt.txt](assets/emotion-heads-v10-prompt.txt). Bokstavskorten visas som text och är inte AI-genererade bilder.
+
+I version 13 har A, D, E, O, V, Ont, Arg och Bowling nya Peter-inspelningar hämtade ur svenskt sammanhang. Personal jobb har 250 ms extra paus mellan orden och Chef DV har 200 ms extra paus mellan delarna.
