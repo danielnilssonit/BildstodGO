@@ -1,6 +1,6 @@
-import { SYMBOLS, DEFAULT_BOARDS } from './data.js?v=11';
-import { playRecorded, stopRecorded } from './speech.js?v=11';
-import { updateContent, CONTENT_REVISION } from './content-updates.js?v=11';
+import { SYMBOLS, DEFAULT_BOARDS } from './data.js?v=12';
+import { playRecorded, stopRecorded } from './speech.js?v=12';
+import { updateContent, CONTENT_REVISION } from './content-updates.js?v=12';
 
 const $ = (s, p=document) => p.querySelector(s);
 const escape = value => String(value ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
@@ -8,7 +8,7 @@ const clone = value => JSON.parse(JSON.stringify(value));
 const uid = () => 'id-'+crypto.randomUUID();
 const KEY='bildstod-go-v1';
 const symbols=new Map(SYMBOLS.map(s=>[s.id,s]));
-const LIMITS={boards:250,cells:600,words:500,messages:200,image:2800000};
+const LIMITS={boards:250,cells:650,words:500,messages:200,image:2800000};
 const defaults={speakOnTap:true,rate:.85,voice:'',contrast:false,recorded:true};
 const isObject=value=>value!==null&&typeof value==='object'&&!Array.isArray(value);
 const isId=value=>typeof value==='string'&&/^[a-zA-Z0-9_-]{1,100}$/.test(value);
@@ -57,7 +57,7 @@ function renderBoard(b){const count=Math.max(b.columns*b.rows,b.cells.length);co
 function renderWords(){return words.length?words.map((w,i)=>w.break?'<span class="linebreak"></span>':`<button class="word-chip" data-word="${i}" aria-label="Ta bort ${escape(w.label)}">${symbolMarkup(w.symbol,w.image)}<span>${escape(w.label)}</span></button>`).join(''):'<span class="message-placeholder">Tryck på bilderna för att bygga en mening…</span>';}
 function refreshWords(){const saved=persist();const strip=$('#message-strip');if(strip){strip.innerHTML=renderWords();strip.scrollLeft=strip.scrollWidth;}return saved;}
 function validColor(c){return /^#[0-9a-fA-F]{6}$/.test(c||'')?c:null;}
-function speak(text,config=settings){if(!text.trim()){toast('Välj några bilder först.');return;}stopRecorded();window.speechSynthesis?.cancel();if(config.recorded){playRecorded(text,{rate:config.rate,fallback:()=>speakSystem(text,config)});return;}speakSystem(text,config);}
+function speak(text,config=settings){if(!text.trim()){toast('Välj några bilder först.');return;}window.speechSynthesis?.cancel();if(config.recorded){playRecorded(text,{rate:config.rate,fallback:()=>speakSystem(text,config)});return;}stopRecorded();speakSystem(text,config);}
 function speakSystem(text,config){if(!('speechSynthesis'in window)){toast('Den här webbläsaren saknar uppläsning.');return;}speechSynthesis.cancel();const u=new SpeechSynthesisUtterance(text);u.lang='sv-SE';u.rate=Number(config.rate)||.85;const voices=speechSynthesis.getVoices();u.voice=voices.find(v=>v.voiceURI===config.voice)||voices.find(v=>v.lang.startsWith('sv'))||null;u.onerror=e=>{if(!['interrupted','canceled'].includes(e.error))toast('Uppläsningen kunde inte starta. Prova en annan röst i Inställningar.');};speechSynthesis.speak(u);}
 function openBoard(id){if(!boardById(id)){toast('Sidan saknas.');return;}current=id;render();window.scrollTo(0,0);}
 function openModal(title,content){modal.innerHTML=`<div class="modal-head"><h2 id="modal-title">${escape(title)}</h2>${iconButton('close-modal','Stäng','close')}</div><div class="modal-content"><p id="modal-status" role="status" aria-live="polite" hidden style="padding:12px;border:1px solid #dfbb71;border-radius:8px;background:#fff3d5;color:#694818"> </p>${content}</div>`;modal.setAttribute('aria-labelledby','modal-title');if(!modal.open)modal.showModal();}
@@ -108,4 +108,4 @@ if('speechSynthesis'in window)speechSynthesis.getVoices();
 if(contentUpdated&&!storageRecovered)persist();
 render();
 if(storageRecovered)toast('Sparade data kunde inte läsas. Standarduppläggen visas. Du kan importera en säkerhetskopia i Inställningar.',12000);
-if('serviceWorker'in navigator)window.addEventListener('load',()=>navigator.serviceWorker.register('./sw.js?v=11').catch(()=>{}));
+if('serviceWorker'in navigator)window.addEventListener('load',()=>navigator.serviceWorker.register('./sw.js?v=12').catch(()=>{}));

@@ -1,6 +1,6 @@
-import { DEFAULT_BOARDS } from './data.js?v=11';
+import { DEFAULT_BOARDS } from './data.js?v=12';
 
-export const CONTENT_REVISION = 3;
+export const CONTENT_REVISION = 4;
 const copy = value => JSON.parse(JSON.stringify(value));
 const removed = new Set(['ja-nej','kommunikation-b','min-saga','idag','djur-och-ljud','skriva-mail','schema-dv','personer']);
 const aliases = {'ja-nej':'kommunikation-a','kommunikation-b':'kommunikation-a',personer:'ord-personer'};
@@ -141,8 +141,8 @@ function updateSecondRevision(state) {
 }
 
 // Correct the standard label once without changing personal pictures or text.
-export function updateContent(state) {
-  if (state.contentRevision >= CONTENT_REVISION) return state;
+function updateThirdRevision(state) {
+  if (state.contentRevision >= 3) return state;
   const result = copy(updateSecondRevision(state));
   const feelings = result.boards.find(board => board.id === 'ord-kanslor');
   for (const cell of feelings?.cells || []) {
@@ -151,6 +151,29 @@ export function updateContent(state) {
     if (cell.label.trim().toLocaleLowerCase('sv') === 'ide') cell.label = 'Idé';
     if (standardLabel && cell.speech?.trim().toLocaleLowerCase('sv') === 'ide') cell.speech = 'Idé';
     if (!cell.image && ['idea','emotion-idea'].includes(cell.symbol) && cell.label === 'Idé') cell.symbol = 'emotion-idea';
+  }
+  result.contentRevision = 3;
+  return result;
+}
+
+export function updateContent(state) {
+  if (state.contentRevision >= CONTENT_REVISION) return state;
+  const result = copy(updateThirdRevision(state));
+  const communication = result.boards.find(board => board.id === 'kommunikation-a');
+  if (communication) {
+    const additions = DEFAULT_BOARDS.find(board => board.id === 'kommunikation-a').cells.filter(cell => ['communication-sorry','communication-correct','communication-wrong'].includes(cell.id));
+    for (const standard of additions) {
+      if (communication.cells.some(cell => cell?.label.trim().toLocaleLowerCase('sv') === standard.label.toLocaleLowerCase('sv'))) continue;
+      const cell = copy(standard);
+      let suffix = 0;
+      while (communication.cells.some(existing => existing?.id === cell.id)) cell.id = standard.id + '-' + (++suffix);
+      communication.cells.push(cell);
+    }
+    communication.rows = Math.min(6,Math.max(communication.rows,Math.ceil(communication.cells.length/communication.columns)));
+  }
+  for (const [id,oldSymbol,newSymbol] of [['ord-halsa','doctor','health-body'],['ord-personer','visual-support','people-support']]) {
+    const board = result.boards.find(board => board.id === id);
+    if (board && !board.image && board.symbol === oldSymbol) board.symbol = newSymbol;
   }
   result.contentRevision = CONTENT_REVISION;
   return result;

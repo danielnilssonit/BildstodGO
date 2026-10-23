@@ -1035,6 +1035,41 @@ export const SYMBOLS = freezeSeed([
     "id": "letter-29",
     "label": "Ö",
     "glyph": "Ö"
+  },
+  {
+    "id": "apology",
+    "label": "Förlåt",
+    "sheet": "v12-sorry",
+    "index": 0,
+    "single": true
+  },
+  {
+    "id": "correct",
+    "label": "Rätt",
+    "sheet": "v12-correct",
+    "index": 0,
+    "single": true
+  },
+  {
+    "id": "wrong",
+    "label": "Fel",
+    "sheet": "v12-wrong",
+    "index": 0,
+    "single": true
+  },
+  {
+    "id": "health-body",
+    "label": "Hälsa och kropp",
+    "sheet": "v12-health-body",
+    "index": 0,
+    "single": true
+  },
+  {
+    "id": "people-support",
+    "label": "Personer och stöd",
+    "sheet": "v12-people-support",
+    "index": 0,
+    "single": true
   }
 ]);
 
@@ -1044,7 +1079,7 @@ export const DEFAULT_BOARDS = freezeSeed([
     "title": "Kommunikation",
     "symbol": "self",
     "columns": 4,
-    "rows": 4,
+    "rows": 5,
     "messageBar": true,
     "showOnHome": true,
     "color": "#d6e6ee",
@@ -1139,6 +1174,27 @@ export const DEFAULT_BOARDS = freezeSeed([
         "label": "Lyssna",
         "symbol": "listen",
         "speech": "Lyssna"
+      },
+      {
+        "id": "communication-sorry",
+        "label": "Förlåt",
+        "symbol": "apology",
+        "speech": "Förlåt",
+        "color": "#d6e6ee"
+      },
+      {
+        "id": "communication-correct",
+        "label": "Rätt",
+        "symbol": "correct",
+        "speech": "Rätt",
+        "color": "#b7da95"
+      },
+      {
+        "id": "communication-wrong",
+        "label": "Fel",
+        "symbol": "wrong",
+        "speech": "Fel",
+        "color": "#ed9c98"
       }
     ]
   },
@@ -1796,7 +1852,7 @@ export const DEFAULT_BOARDS = freezeSeed([
   {
     "id": "ord-personer",
     "title": "Personer",
-    "symbol": "visual-support",
+    "symbol": "people-support",
     "columns": 4,
     "rows": 3,
     "messageBar": true,
@@ -1979,7 +2035,7 @@ export const DEFAULT_BOARDS = freezeSeed([
   {
     "id": "ord-halsa",
     "title": "Hälsa och kropp",
-    "symbol": "doctor",
+    "symbol": "health-body",
     "columns": 4,
     "rows": 3,
     "messageBar": true,
